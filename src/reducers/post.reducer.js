@@ -1,11 +1,22 @@
+import { ADD_POST, EDIT_POST, GET_POSTS } from "../actions/post.action";
+
 const initialState = {}
 
 export default function postReducer(state = initialState, action) {
 	switch (action.type) {
-		case "GET_POSTS":
+		case GET_POSTS:
 			return action.payload;
-		case "ADD_POST":
+		case ADD_POST:
 			return [action.payload, ...state]; // On ajoute le contenu du payload au State (qu'on déstructure)
+		case EDIT_POST:
+			return state.map((post) => {
+				if (post.id === action.payload.id) {
+					return {
+						...post,
+						content: action.payload.content,
+					};
+				} else return post;
+			});
 		default:
 			return state;
 	}
