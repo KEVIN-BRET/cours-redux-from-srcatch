@@ -1,3 +1,5 @@
+// Fonction qui vérifie si un objet est vide
+
 export const isEmpty = (value) => {
   return (
     value === undefined ||
