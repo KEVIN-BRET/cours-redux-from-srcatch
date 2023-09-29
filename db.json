@@ -1,25 +1,18 @@
 {
   "posts": [
     {
-      "title": "Lorem ipsum dolor sit amet",
       "author": "user42",
-      "likes": 27,
-      "id": "1",
-      "content": "Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?"
+      "title": "dsthdrthedtr",
+      "content": "sthgsrtdhndtnjhtynh",
+      "likes": 0,
+      "id": 1
     },
     {
-      "title": "Lorem ipsum dolor sit amet dolor sit amet",
       "author": "user42",
-      "likes": 16,
-      "id": "2",
-      "content": "YES klwsdhjvkjwdfnv,\n"
-    },
-    {
-      "title": "Lorem ipsum dolor",
-      "author": "user42",
-      "likes": 107,
-      "id": "3",
-      "content": "jkbjhb\n"
+      "title": "srthdtrhn",
+      "content": "sfrthnbsetdndtyn",
+      "likes": 0,
+      "id": 2
     }
   ],
   "user": [
