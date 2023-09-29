@@ -1,24 +1,24 @@
 {
   "posts": [
     {
-      "author": "user42",
       "title": "dsthdrthedtr",
+      "author": "user42",
       "content": "sthgsrtdhndtnjhtynh",
-      "likes": 0,
-      "id": 1
+      "id": 1,
+      "likes": 87
     },
     {
-      "author": "user42",
       "title": "srthdtrhn",
+      "author": "user42",
       "content": "sfrthnbsetdndtyn",
-      "likes": 0,
-      "id": 2
+      "id": 2,
+      "likes": 51
     }
   ],
   "user": [
     {
       "pseudo": "user42",
-      "likes": 0,
+      "likes": 69,
       "age": 30,
       "id": 1
     }
